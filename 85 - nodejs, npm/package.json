@@ -1,0 +1,16 @@
+{
+  "name": "npmbasic",
+  "version": "1.0.0",
+  "description": "npm basics",
+  "keywords": [
+    "npm",
+    "node"
+  ],
+  "license": "ISC",
+  "author": "jaydeep",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
