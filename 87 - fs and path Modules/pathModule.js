@@ -12,5 +12,5 @@ console.log("extension is ", path.dirname(myPath));
 console.log("extension is ", path.basename(myPath));
 
 // to join path
-console.log(path.join("E://", "nodejs-code\\main.js"))
+console.log(path.join("E://", "nodejs-code\\main.js"));
 

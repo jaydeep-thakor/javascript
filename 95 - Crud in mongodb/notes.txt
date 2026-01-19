@@ -1,0 +1,6 @@
+.mongodb.js is not a MongoDB file type. It is used by the MongoDB VS Code extension to treat the file as a MongoDB Playground, where shell commands like use() are allowed.
+datatable -> collections1 -> data
+             collections2 -> data
+             collections3 -> data   
+
+https://www.mongodb.com/docs/manual/reference/mql/query-predicates/comparison/

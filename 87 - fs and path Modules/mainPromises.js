@@ -6,7 +6,8 @@ import fs from "fs/promises"
 const fileRead = await fs.readFile("aboutme.txt");
 console.log("file content is = ",fileRead.toString());
 
-// everytime I run this code it will keep appned this text
+// everytime I run this code it will keep appneding this text
 const appendText = await fs.appendFile("aboutme.txt", "\n\n\n\n\n I am 27 year old");
 console.log(appendText);
+
 
