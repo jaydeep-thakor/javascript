@@ -24,3 +24,12 @@ let isPass = marks>=33 ? "pass" : "failed";
 
 console.log(isPass)
 
+
+// const age1 = parseInt(prompt("Enter your age"));
+
+// const check = age1 > 0 && age1 < 18 ? "You can drive the car"  
+//               : age1 > 18 && age1 < 100 ? "you can drive the car" 
+//               : age1 > 100 ? "invalid age"
+//               : "error"
+
+//               console.log(check)
