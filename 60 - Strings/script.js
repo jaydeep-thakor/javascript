@@ -59,10 +59,12 @@ console.log(str.charAt(6))
 
 console.log(str.indexOf("Methods"))
 
+// str.split(".");
 
 console.log(str.startsWith("Str")) // true
 console.log(str.startsWith("methods")) // false
 
 console.log(str.endsWith("Str")) // false
 console.log(str.endsWith("ds")) // true
+
 
