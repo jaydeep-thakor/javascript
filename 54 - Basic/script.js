@@ -19,4 +19,8 @@ else{
 
 let input = prompt("Write something = ");
 
+// to take input as a number
+// Number(prompt("Enter a number))
+// parseInt(prompt("Enter a number))
+
 console.log("User entered = ", input)
