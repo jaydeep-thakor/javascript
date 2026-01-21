@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
 
+</head>
+<body>
+
+<ul class="items">
+
+<li data-xyz="owl is a bird">owl</li>
+<li data-xyz="parrot is a bird">parrot</li>
+<li data-xyz="dove is a bird">dove</li>
+<li data-xyz="butterfly is not a bird">butterfly</li>
+
+</ul>
+<script>
+
+
+const getType = (customType) => {
+		alert(customType)
+}
+
+let allItems = document.getElementsByClassName("items")[0].getElementsByTagName("li");
+console.log(allItems)
+Array.from(allItems).forEach((value, index)=>{
+let customValue = value.getAttribute("data-xyz")
+		
+
+    	value.addEventListener("click", ()=>{
+        	
+        getType(customValue)
+        })
+})
+
+
+
+
+</script>
+</body>
+</html>
